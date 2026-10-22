@@ -24,4 +24,16 @@ Every idea starts in plain words, every derivation runs step by step, and the in
 13. Why (x̄ − μ)/(S/√n) is t(n − 1)
 14. The big picture and formula sheet
 
-The whole site is a single `index.html` with no build step. It loads MathJax and Google Fonts from their CDNs.
+## The Normal Family Tree
+
+A second tab with short revision notes: how χ², t and F are built from the Normal, seen from a bird's-eye view.
+
+**Read it here:** https://zerobug-mohit.github.io/students-t-step-by-step/normal-family-tree.html
+
+- A family-tree diagram with every transformation numbered, and a recipe for each step with a running numerical example
+- One card per distribution: density, MGF, kth moment, mean and variance, plus the key derivation
+- Student's t theorem in four parts
+- One formula behind every moment, with worked examples
+- A one-table formula sheet
+
+The site is two static pages, `index.html` and `normal-family-tree.html`, with no build step. They load MathJax and Google Fonts from their CDNs.

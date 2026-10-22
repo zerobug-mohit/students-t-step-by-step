@@ -270,8 +270,22 @@ table.notation th,table.notation td{padding:9px 12px;border-bottom:1px solid var
 table.notation th{font-family:var(--font-mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
 table.notation td:first-child{white-space:nowrap}
 </style>
+<style>
+/* Site tabs: one band across the top of every page of the GitHub Pages site. */
+.site-tabs{background:var(--surface);border-bottom:1px solid var(--rule);
+  padding-left:max(16px, env(safe-area-inset-left,0px));padding-right:max(16px, env(safe-area-inset-right,0px))}
+.site-tabs .in{max-width:var(--tabs-w,1260px);margin:0 auto;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.site-tabs a{flex:none;font-family:var(--font-display);font-weight:600;font-size:.95rem;line-height:1.3;color:var(--ink-2);
+  text-decoration:none;padding:13px 14px 11px;border-bottom:2px solid transparent;white-space:nowrap}
+.site-tabs a:hover{color:var(--ink)}
+.site-tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--margin)}
+</style>
 </head>
 <body>
+<nav class="site-tabs" aria-label="Pages"><div class="in">
+  <a href="./" aria-current="page">Student's t, Step by Step</a>
+  <a href="normal-family-tree.html">The Normal Family Tree</a>
+</div></nav>
 
 <div class="layout">
 <nav class="toc" aria-label="Contents">
